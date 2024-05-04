@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+       
+        <title>Ua technology</title>
+    </head>
+
+    <div class="products">
+    <div class="product-card">
+        <img id="1">
+        <h2>computer</h2>
+        <p>250.00$</p>
+    </div>
+    <div class="product-card">
+        <img id="2">
+        <h2>IPhone 15 pro</h2>
+        <p>1150.00$</p>
+    </div>
+    <div class="product-card">
+        <img id="3">
+        <h2>YouTube</h2>
+        <p>1640000000$</p>
+    </div>
+    </div>
+
+    <form action="result.html" method="get">
+        <div class="form-step">
+            <div>
+                <h2>Крок 1. Ваші деталі</h2>
+                    <p><label for="name">Name</label></p>
+                    <input id="name" type="text" name="name" placeholder="Введіть ім'я">
+
+                    <p><label for="surname">Surname</label></p>
+                    <input id="surname" type="text" name="surename" placeholder="Введіть прізвище">
+
+                    <p><label for="email">Email</label></p>
+                    <input id="email" type="text" name="email" placeholder="Введіть пошту">
+
+                <p><label for="commodity" id="commodity">Країна проживання:</label></p>
+                    <select id="commodity" name="commodity" id="select-commodity">
+                        <option value="">-----</option>
+                        <option value="Україна">Україна</option>
+                        <option value="США">США</option>
+                        <option value="Турція">Турція</option>
+                        <option value="Польша">Польша</option>
+                    </select>
+            </div>
+            <div>
+                <p><label for="commodity" id="commodity">Оберіть продукт:</label></p>
+                <select id="commodity" name="commodity" id="select-commodity">
+                    <option value="">-----</option>
+                    <option value="computer">computer</option>
+                    <option value="IPhone 15 pro">IPhone 15 pro</option>
+                    <option value="YouTube">YouTube</option>
+                </select>
+            </div>
+       </div>
+    <div class="form-step">
+        <h2><button type="submit">Купити зараз</button></h2>
+    </div>
+    </form>
+</body>
+</html>
+
+
+<script src="myscript.js"></script>

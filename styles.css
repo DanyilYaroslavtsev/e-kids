@@ -1,0 +1,57 @@
+p {
+    background-color:azure;
+    width: 500px;
+}
+h2 {
+    text-align:center;
+    color:black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card{
+    color:black;
+    background-color: aqua;
+}
+
+.product-card img {
+    width: 500px;
+    height: 500px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-step {
+    background-color: antiquewhite;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 35%;
+    min-width: 250px;
+    margin: 30px 10px;
+    }
+
+.form-step button {
+    height: 200px;
+    width: 200px;
+    color:black;
+    background-color: blueviolet;
+    font-size:x-large;
+}
+
+#commodity {
+    height: 100px;
+    width: 150px;
+}
+
+
+#select-commodity {
+    height: 100px;
+    width: 100px;
+}
